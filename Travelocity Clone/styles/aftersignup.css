@@ -1,0 +1,24 @@
+#header{
+    cursor: default;
+}
+#header>img{
+   margin-left: 42%;
+}
+h1{
+    width: 25%;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding-top: 1%;
+    cursor: default;
+}
+p{
+    width: 25%;
+    margin: auto;
+    padding-top: 3%;
+    font-size: 17px;
+    cursor: default;
+}
+p>u{
+    color: royalblue;
+    cursor: pointer;
+}

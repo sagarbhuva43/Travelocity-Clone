@@ -1,0 +1,45 @@
+#header , #form{
+    cursor: default;
+}
+#header>img{
+   margin-left: 42%;
+}
+#form{
+    width: 30%;
+    /* border: 1px solid red; */
+    margin: auto;
+    height: 700px;
+}
+#form input{
+    width: 90%; 
+    height: 8%; 
+    border-radius: 7px;
+    margin-bottom: 5%;
+    border: 2px solid grey;
+}
+#form>p{
+    color: grey;
+}
+#form>p>u{
+    color: royalblue;
+    cursor: pointer;
+}
+#form>#signupbtn {
+width: 90%;
+height: 8%;
+/* border: 1px solid red; */
+text-align: center;
+margin-top: 10%;
+background-color: royalblue;
+color: white;
+border-radius: 7px;
+cursor: pointer;
+}
+#form>#signupbtn>h3{
+  padding-top: 4%;
+}
+#form>p>span{
+  color: royalblue;
+  text-decoration: underline;
+  cursor: pointer;
+}

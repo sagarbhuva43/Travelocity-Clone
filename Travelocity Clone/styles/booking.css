@@ -1,0 +1,111 @@
+#body {
+    background-color: whitesmoke;
+}
+
+#content {
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#content>#right {
+    width: 75%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+#content>#right>#append>#maindiv {
+    display: flex;
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 6%;
+    border-radius: 8px;
+    margin-bottom: 2%;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+
+#content>#right>#append>#maindiv>#leftdiv {
+    width: 29%;
+    height: 100%;
+    /* border: 1px solid green; */
+    margin-right: 1%;
+}
+
+#content>#right>#append>#maindiv>#leftdiv>img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    border-radius: 8px 0 0 8px;
+}
+
+#content>#right>#append>#maindiv>#middlediv {
+    width: 49%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-right: 1%;
+}
+
+#content>#right>#append>#maindiv>#rightdiv {
+    width: 19%;
+    height: 100%;
+    /* border: 1px solid blue; */
+
+}
+
+#content>#right>#append>#maindiv>#middlediv>#rate {
+    margin-top: 11%;
+    font-weight: bold;
+    color: grey;
+}
+
+#content>#right>#append>#maindiv>#rightdiv>#prc {
+    margin-top: 80%;
+    font-weight: bolder;
+}
+
+#content>#right>#append>#maindiv>#middlediv>#nm {
+    font-weight: bolder;
+}
+
+
+#checkout>#total{
+    width: 330px;
+    /* border: 1px solid red; */
+    height: 35px;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: teal;
+    text-align: center;
+}
+#checkout>#btn4{
+    width: 150px;
+    /* border: 1px solid red; */
+    height: 35px;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: white;
+    background-color: royalblue;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#checkout>#btn4>h3{
+    padding-top: 7px;
+}
+
+
+
+#deletebtn{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}

@@ -1,0 +1,100 @@
+#body {
+    background-color: whitesmoke;
+}
+
+#content {
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: auto;
+    height: 3500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content>#left {
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+
+#content>#right {
+    width: 75%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+#left>#map>.mapouter>.gmap_canvas{
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#content>#right>#sort {
+    width: 30%;
+    height: 2%;
+    cursor: pointer;
+    margin-left: 70%;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+
+#content>#right>#append {
+    width: 100%;
+    height: 97%;
+    /* border: 1px solid blue; */
+}
+
+#content>#right>#append>#maindiv {
+    display: flex;
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 6%;
+    border-radius: 8px;
+    margin-bottom: 2%;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+
+#content>#right>#append>#maindiv>#leftdiv {
+    width: 29%;
+    height: 100%;
+    /* border: 1px solid green; */
+    margin-right: 1%;
+}
+
+#content>#right>#append>#maindiv>#leftdiv>img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    border-radius: 8px 0 0 8px;
+}
+
+#content>#right>#append>#maindiv>#middlediv {
+    width: 49%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-right: 1%;
+}
+
+#content>#right>#append>#maindiv>#rightdiv {
+    width: 19%;
+    height: 100%;
+    /* border: 1px solid blue; */
+
+}
+
+#content>#right>#append>#maindiv>#middlediv>#rate {
+    margin-top: 11%;
+    font-weight: bold;
+    color: grey;
+}
+
+#content>#right>#append>#maindiv>#rightdiv>#prc {
+    margin-top: 80%;
+    font-weight: bolder;
+}
+
+#content>#right>#append>#maindiv>#middlediv>#nm {
+    font-weight: bolder;
+}
