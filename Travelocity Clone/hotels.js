@@ -1,5 +1,5 @@
 //import navbar
-import navbar from "./components/navbar.js";
+import navbar from "./components/navbar.js"; 
 document.getElementById('navbar').innerHTML = navbar();
 
 //redirect to homepage page when hit logo in navbar
