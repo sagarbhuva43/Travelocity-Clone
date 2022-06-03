@@ -12,6 +12,20 @@ Solo project executed In a week.
 
 Javascript, HTML, CSS ,Bootstrap
 
+
+Deployed with Netlify 
+```
+https://capable-kitten-e8558b.netlify.app/
+ ```
+
+### <u>Run Locally</u>
+
+Clone the project
+
+```
+git clone https://github.com/abhishekmardiya/Travelocity-Clone.git
+```
+
 ## Important Links
 <a href="https://capable-kitten-e8558b.netlify.app/">Netlify Deployment</a>
 <br>
